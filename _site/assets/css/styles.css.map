@@ -1,0 +1,14 @@
+{
+	"version": 3,
+	"file": "styles.css",
+	"sources": [
+		"styles.scss",
+		"_sass/main.scss"
+	],
+	"sourcesContent": [
+		"@import \"main\";",
+		"html, body {\n    margin: 0;\n    height: 100%;\n}\n\na {\n    text-decoration: none;\n    color:#209CEE;\n}\n\na:visited {\n    color:#209CEE;\n}\n\nbody {\n    font-family: Futura, Helvetica, sans-serif;\n    padding-left: 12px;\n    padding-right: 12px;\n}\n\nheader {\n    padding-top: 12px;\n    padding-bottom: 12px;\n    border-bottom: 1px solid lightgrey;\n}\n\n#content-container {\n    display: flex;\n}\n\n#content {\n    width:60vw;\n    padding-left:12px;\n    padding-right:12px;\n}\n\n\n.header-nav-link {\n    display: inline;\n}\n\n.nav-link {\n    padding: 12px 12px 12px 12px;\n    border-radius: 4px;\n}\n\n.nav-link:hover {\n    background-color: aliceblue;\n}\n\n.nav-link > a {\n    color:black;\n}\n\n.nav-link > a:visited {\n    color:black;\n}\n\n.menu {\n    float: left;\n    margin-right: 12px;\n    width: 20vw;\n    height: 100vw;\n}\n"
+	],
+	"names": [],
+	"mappings": "ACAA,AAAA,IAAI,EAAE,IAAI,CAAC,EACP,MAAM,EAAE,CAAC,EACT,MAAM,EAAE,IAAI,GACf;;AAED,AAAA,CAAC,CAAC,EACE,eAAe,EAAE,IAAI,EACrB,KAAK,EAAC,OAAO,GAChB;;AAED,AAAA,CAAC,CAAC,OAAO,CAAC,EACN,KAAK,EAAC,OAAO,GAChB;;AAED,AAAA,IAAI,CAAC,EACD,WAAW,EAAE,6BAA6B,EAC1C,YAAY,EAAE,IAAI,EAClB,aAAa,EAAE,IAAI,GACtB;;AAED,AAAA,MAAM,CAAC,EACH,WAAW,EAAE,IAAI,EACjB,cAAc,EAAE,IAAI,EACpB,aAAa,EAAE,mBAAmB,GACrC;;AAED,AAAA,kBAAkB,CAAC,EACf,OAAO,EAAE,IAAI,GAChB;;AAED,AAAA,QAAQ,CAAC,EACL,KAAK,EAAC,IAAI,EACV,YAAY,EAAC,IAAI,EACjB,aAAa,EAAC,IAAI,GACrB;;AAGD,AAAA,gBAAgB,CAAC,EACb,OAAO,EAAE,MAAM,GAClB;;AAED,AAAA,SAAS,CAAC,EACN,OAAO,EAAE,mBAAmB,EAC5B,aAAa,EAAE,GAAG,GACrB;;AAED,AAAA,SAAS,CAAC,KAAK,CAAC,EACZ,gBAAgB,EAAE,SAAS,GAC9B;;AAED,AAAA,SAAS,GAAG,CAAC,CAAC,EACV,KAAK,EAAC,KAAK,GACd;;AAED,AAAA,SAAS,GAAG,CAAC,CAAC,OAAO,CAAC,EAClB,KAAK,EAAC,KAAK,GACd;;AAED,AAAA,KAAK,CAAC,EACF,KAAK,EAAE,IAAI,EACX,YAAY,EAAE,IAAI,EAClB,KAAK,EAAE,IAAI,EACX,MAAM,EAAE,KAAK,GAChB"
+}
