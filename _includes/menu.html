@@ -1,0 +1,10 @@
+<div class="menu">
+    <h3>Daniel Merchant</h3>
+    <nav>
+        {% for item in site.data.links %}
+        <div class="nav-link nav-menu-link">
+            <a href="{{ item.link }}"">{{ item.name }}</a>
+        </div>
+        {% endfor %}
+    </nav>
+</div>
