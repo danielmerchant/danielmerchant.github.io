@@ -13,7 +13,7 @@ a:visited {
 }
 
 body {
-    font-family: Futura, Helvetica, sans-serif;
+    font-family: monospace;
     padding-left: 12px;
     padding-right: 12px;
 }
@@ -32,20 +32,22 @@ header {
     width:60vw;
     padding-left:12px;
     padding-right:12px;
+    overflow: scroll;
 }
 
 
 .header-nav-link {
-    display: inline;
+    display: inline-block;
 }
 
 .nav-link {
     padding: 12px 12px 12px 12px;
     border-radius: 4px;
+    font-size: large;
 }
 
 .nav-link:hover {
-    background-color: aliceblue;
+    text-decoration: underline;
 }
 
 .nav-link > a {
@@ -61,4 +63,9 @@ header {
     margin-right: 12px;
     width: 20vw;
     height: 100vw;
+}
+
+.current {
+    font-weight: bold;
+    text-decoration: underline;
 }
